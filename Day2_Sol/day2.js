@@ -1,33 +1,56 @@
 // Exercise 1
 let challenge = "30 Days Of JavaScript"
 console.log(challenge)
+
 console.log(challenge.length)
+
 console.log(challenge.toUpperCase())
+
 console.log(challenge.toLowerCase())
+
 console.log(challenge.substr(0, 2))
 console.log(challenge.substring(0, 3))
+
 console.log(challenge.substring(3))
+
 console.log(challenge.includes("Script"))
+
 console.log(challenge.split())
+
 console.log(challenge.split(" "))
+
 let mncs = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
 console.log(mncs.split(','))
+
 console.log(challenge.replace('JavaScript', 'Python'))
+
 console.log(challenge.charAt(15))
+
 console.log(challenge.charCodeAt(11))
+
 console.log(challenge.indexOf('a'))
+
 console.log(challenge.lastIndexOf('a'))
+
 let sen1 = "You cannot end a sentence with because because because is a conjunction"
 console.log(sen1.indexOf('because'))
+
 console.log(sen1.lastIndexOf('because'))
+
 console.log(sen1.search('because'))
+
 console.log(challenge.trim())
+
 console.log(challenge.startsWith(30))
+
 console.log(challenge.endsWith('t'))
+
 console.log(challenge.match(/a/g))
+
 let line1 = "30 Days of"
 let line2 = " JavaScript"
 console.log(line1.concat(line2))
+
 console.log(challenge.repeat(2))
 
 // Exercise 2
