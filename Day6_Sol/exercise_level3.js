@@ -1,4 +1,4 @@
-//Exercise level 3
+//Exercise level => 3
 
 const copcountry = []
 for (let i = 0; i < countries.length; i++) {
