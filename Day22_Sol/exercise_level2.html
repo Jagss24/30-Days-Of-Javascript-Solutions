@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .country {
+            width: 120px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: violet;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" id="country-elem"></div>
+    <script src="./countries.js"></script>
+    <script>
+        function creatcountryelement(country) {
+            const div = document.createElement("div")
+            div.classList.add("country")
+            div.textContent = country
+            return div
+
+        }
+
+        const container = document.getElementById("country-elem")
+
+        countries.forEach((country) => {
+            const countryname = creatcountryelement(country.name)
+            container.appendChild(countryname)
+        })
+    </script>
+</body>
+
+</html>
